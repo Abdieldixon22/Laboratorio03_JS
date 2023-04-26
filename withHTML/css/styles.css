@@ -1,0 +1,47 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --secundario: #3ec7d6;
+    --gris: #575757;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 2.4rem;
+}
+.conteiner {
+    display: flex;
+}
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+.card {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--secundario);
+    border-radius: 15px;
+}
+.button {
+    border-radius: 5px;
+    border: none;
+    background-color: var(--gris);
+    padding: 10px;
+    color: var(--blanco);
+}
+input {
+    border: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+}

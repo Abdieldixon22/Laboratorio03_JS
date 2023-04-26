@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Casa de Cambio</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="card">
+            <hr>
+            <h1>Casa cambio</h1>
+            <hr>
+            <div>
+                <h2>Seleccione moneda origen</h2>
+                <form class="form" name="form1">
+                    <input type="radio" value="1" checked name="moneda">Dolar
+                    <input type="radio" value="2" name="moneda">Euro
+                    <input type="radio" value="3" name="moneda">Sol
+                </form>
+            </div>
+            <div>
+                <h2>Seleccione moneda destino</h2>
+                <form class="form" name="form2">
+                    <input type="radio" value="1" checked name="monedaCamb">Dolar
+                    <input type="radio" value="2" name="monedaCamb">Euro
+                    <input type="radio" value="3" name="monedaCamb">Sol
+                </form>
+            </div>
+            <h2>Ingrese monto</h2>
+            <form class="form">
+                <input type="number" min="0" placeholder="0" name="monto" id="monto">
+            </form>
+            <button class="button" onclick="cotizar()">Cotizar</button>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
